@@ -51,13 +51,16 @@ def fetch_async(urls):
     tot_elapsed = default_timer() - start_time
     print('Total time taken : ', str(tot_elapsed))
 
-before_start = time.time()
-fetch_async(urls)
-print(f'Total time taken {time.time() - before_start}')
-print(f'Average time per request is {(time.time() - before_start) / numreq}')
+# before_start = time.time()
+# fetch_async(urls)
+# print(f'Total time taken {time.time() - before_start}')
+# print(f'Average time per request is {(time.time() - before_start) / numreq}')
 
 if __name__ == "__main__":
     numreq = 100
     mygen = urlGen(2115425256, numreq)
     urls = list(mygen)
+    before_start = time.time()
     fetch_async(urls)
+    print(f'Total time taken {time.time() - before_start}')
+    print(f'Average time per request is {(time.time() - before_start) / numreq}')
