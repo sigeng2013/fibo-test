@@ -18,4 +18,4 @@ def fibo(lim, s):
         time.sleep(s)
 
 if __name__ == "__main__":
-   fibo(100, 2)
+   fibo(100, 3)
