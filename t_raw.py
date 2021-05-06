@@ -62,7 +62,7 @@ def iag():
 
 if __name__ == "__main__":
     start = 211516950
-    end = 211517050
+    end = 211549442
     batch = 30
     nBatches = ((end - start) // batch) + 1
     outputFile = 'tickets2021raw.txt'
