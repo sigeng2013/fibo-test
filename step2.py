@@ -25,7 +25,7 @@ def runAll(inputFile, outputFile):
 
 	for i in tct: # -> list of dict
     	for g in i['records']: # -> dict
-        	output.write(g['id'])
+            output.write(g['id'])
         	output.write('\n')
 
 
@@ -35,4 +35,4 @@ with zipfile.ZipFile('ticketsURL.zip', 'w', zipfile.ZIP_DEFLATED) as myzip:
     myzip.write('ticketsURL.txt')
     
 if __name__ == "__main__":
-	runAll('tickets2021raw.txt', "ticketsURL.txt", "a+")
+    runAll('tickets2021raw.txt', "ticketsURL.txt", "a+")
