@@ -23,8 +23,8 @@ def runAll(inputFile, outputFile):
 
 	output = open(outputFile, "a+")
 
-	for i in tct: # -> list of dict
-    	for g in i['records']: # -> dict
+	for i in tct:
+    	for g in i['records']:
             output.write(g['id'])
         	output.write('\n')
 
