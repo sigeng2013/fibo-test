@@ -63,4 +63,4 @@ def ticketsContent(infile, outfile):
     f2.close()
 
 if __name__ == "__main__":
-    ticketsContent(inFile = 'tickets2021url.txt', outfile = 'tickets2021con.txt')
+    ticketsContent(infile = 'tickets2021url.txt', outfile = 'tickets2021con.txt')
