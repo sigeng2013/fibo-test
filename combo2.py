@@ -19,9 +19,9 @@ import json
 # nest_asyncio.apply()
 
 batchSize = 30
-    step1Output = 'tickets2021raw.txt'
-    step2Output = 'tickets2021url.txt'
-    step3Output = 'result.txt'
+step1Output = 'tickets2021raw.txt'
+step2Output = 'tickets2021url.txt'
+step3Output = 'result.txt'
 
 """Step 1"""
 
